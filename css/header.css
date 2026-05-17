@@ -72,6 +72,8 @@
     font-size: 16px;
     letter-spacing: 0.02em;
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -79,7 +81,6 @@
 
 .header .header-nav-list a:hover, .header-nav a:focus {
     color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .header .address a{
@@ -90,15 +91,20 @@
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
 .header .address a:hover,
 .header .address a:focus {
     color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
 
-.nav-active-link:active::after {
+.header .header-nav .nav-active-link {
+    color: #404BBF;
+}
+
+.nav-active-link::after {
     content:"";
     display: block;
     width: 100%;
