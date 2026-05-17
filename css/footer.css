@@ -1,0 +1,43 @@
+.footer {
+    background-color: #2E2F42;
+    padding: 100px 0px;
+}
+
+.footer-container {
+}
+
+
+.footer-logo, .footer-text {
+    display: block;
+    max-width: 264px;
+}
+
+.footer-logo {
+    margin-bottom: 16px;
+}
+
+.footer-text {
+    color: #F4F4FD;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+}
+
+.footer-logo-accent {
+    color: #4D5AE5;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-second {
+    color: #F4F4FD;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
